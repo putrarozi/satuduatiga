@@ -1,0 +1,14 @@
+		<body onLoad="document.FrmSendSession.submit();">  
+		<div style="display:none;" id="spinner-preview"></div><!-- spin.js -->
+		<form name="FrmSendSession" id="FrmSendSession" action="http://rs2.portaldwh.bri.co.id" method="post">
+	        	
+			<input type="hidden" id="user_id" name="user_id" value="00174122" />
+			<input type="hidden" id="app_name" name="app_name" value="BRISIM" />
+			<input type="hidden" id="key" name="key" value="00174122ip=rs3.portaldwh.bri.co.id&addr=ZWR0ekpxMi80bGdwTlBIbVFxMGVjcEsvL2lhWWdWRW5odm5JQnAzTFhwbWxXbFNENU1HaDd0dkw1NnlscFZGaXUrb1Q4R01aREhFcmZ0OW96c2ZFYVE9PQapibrisimrapibrisimrtimbrisim&KanwilLogin=0&CabangLogin=0&UkerLogin=0&rs:Command=Render" />
+			<input type="hidden" id="client_ip" name="client_ip" value="192.168.67.29" />
+	        	<input type="hidden" id="reportAddr" name="reportAddr" value="/cr_2005/gi405" />
+			<input type="hidden" id="reportIp" name="reportIp" value="rs3.portaldwh.bri.co.id" />
+			<input type="hidden" id="QueryStr" name="QueryStr" value="ip=rs3.portaldwh.bri.co.id&addr=ZWR0ekpxMi80bGdwTlBIbVFxMGVjcEsvL2lhWWdWRW5odm5JQnAzTFhwbWxXbFNENU1HaDd0dkw1NnlscFZGaXUrb1Q4R01aREhFcmZ0OW96c2ZFYVE9PQapibrisimrapibrisimrtimbrisim&KanwilLogin=0&CabangLogin=0&UkerLogin=0&rs:Command=Render" />
+		
+		</form>
+		</body>
